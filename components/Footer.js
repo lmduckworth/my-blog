@@ -83,6 +83,7 @@ export default function Footer({ copyrightText }) {
       <p className="dark:text-white uppercase mb-3 font-bold opacity-60">
         {copyrightText}
       </p>
+      <p><a href="mailto:lee@leeduckworth.me">lee@leeduckworth.me</a></p>
       <ThemeSwitcher />
     </footer>
   );
