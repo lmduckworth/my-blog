@@ -15,9 +15,9 @@ export default function About() {
         // blurDataURL="data:..." automatically provided
         // placeholder="blur" // Optional blur-up while loading
       />
-      <p>Hello, I'm Lee. I'm a web developer from Astley, Greater Manchester.</p>
+      <p>{"Hello, I'm Lee. I'm a web developer from Astley, Greater Manchester."}</p>
 
-      <p>I work full time for CPL Group where I've worked for over 15 years.</p>
+      <p>{"I work full time for CPL Group where I've worked for over 15 years."}</p>
 
       <p>I lead a small team, handling the web and IT requirements for the company.</p>
 
@@ -30,7 +30,7 @@ export default function About() {
         <li>HTML</li>
       </ul>
 
-      <p>Recently I've been playing around with React and NextJS, including the site you're on.</p>
+      <p>{"Recently I've been playing around with React and NextJS, including the site you're on."}</p>
 
     </>
   )
