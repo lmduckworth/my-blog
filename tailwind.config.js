@@ -6,4 +6,7 @@ module.exports = {
   ],
   darkMode: 'class', // or 'media' or 'class'
   presets: [require('./utils/tailwind-preset')],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
 };
