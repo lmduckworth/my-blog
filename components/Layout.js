@@ -37,7 +37,7 @@ export default function Layout({ children }) {
   }, []);
 
   return (
-    <div className="relative pb-24 overflow-hidden bg-gradient-to-r from-orange-200 to-orange-300">
+    <div className="relative pb-24 overflow-hidden bg-slate-200">
       <Navbar/>
       <div className="flex flex-col items-center max-w-7xl w-full mx-auto">
         {children}

@@ -1,12 +1,11 @@
 import Image from 'next/image'
+import Header from '../components/Header'
 import profilePic from '../public/2022_01-Duckworth_Lee-noBg.png'
 
 export default function About() {
   return (
     <>
-      <h1 className="text-3xl lg:text-5xl text-center mb-12">
-        About me
-      </h1>
+      <Header title="About me" />
       <Image
         src={profilePic}
         alt="Picture of Lee"

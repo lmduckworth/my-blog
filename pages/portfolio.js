@@ -1,3 +1,4 @@
+import Header from '../components/Header'
 import Image from 'next/image'
 
 const sites = [
@@ -24,9 +25,7 @@ const sites = [
 export default function Portfolio() {
   return (
     <>
-    <h1 className="text-3xl lg:text-5xl text-center mb-12">
-      Portfolio
-    </h1>
+    <Header title="Portfolio" />
     <ul role="list" className="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
       {sites.map((file) => (
         <li key={file.source} className="relative">

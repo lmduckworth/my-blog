@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Header from '../components/Header'
 import { getPosts } from '../utils/mdx-utils';
 
 import SEO from '../components/SEO';
@@ -9,9 +10,7 @@ export default function Index({ posts, globalData }) {
   return (
     <>      
       <SEO title={globalData.name} description={globalData.blogTitle} />
-        <h1 className="text-3xl lg:text-5xl text-center mb-12">
-          {globalData.blogTitle}
-        </h1>
+        <Header title={globalData.blogTitle} />
         <ul className="w-full">
           {posts.map((post) => (
             <li
