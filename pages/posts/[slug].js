@@ -39,15 +39,15 @@ export default function PostPage({
         title={`${frontMatter.title} - ${globalData.name}`}
         description={frontMatter.description}
       />
-      <article className="px-6 md:px-0">
-        <header>
+      <article className="">
+        <header className="prose lg:prose-lg m-auto my-6">
           <Header title={frontMatter.title} />  
           {frontMatter.description && (
             <p className="text-xl mb-4">{frontMatter.description}</p>
           )}
         </header>
         <main>
-          <article className="prose dark:prose-dark">
+          <article className="prose dark:prose-dark lg:prose-lg prose-a~:text-orange-500 hover:prose-a:text-orange-600 m-auto">
             <MDXRemote {...source} components={components} />
           </article>
         </main>
